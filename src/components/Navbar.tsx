@@ -9,10 +9,10 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-black/80 backdrop-blur-md border-b border-cream/10">
-      <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-sm">
+      <div className="container mx-auto flex items-center justify-between py-1 px-4 md:px-8">
         <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="Coding With God" className="h-16 w-auto" />
+          <img src={logo} alt="Coding With God" className="h-24 w-auto transition-transform duration-300 hover:scale-105" />
         </a>
 
         {/* Desktop nav */}

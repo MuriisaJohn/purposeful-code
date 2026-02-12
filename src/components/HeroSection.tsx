@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowRight, Calendar, Code, Users } from "lucide-react";
 
 const HeroSection = () => {
@@ -8,7 +7,7 @@ const HeroSection = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src={heroBg}
+          src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?q=80&w=878&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="w-full h-full object-cover"
         />
