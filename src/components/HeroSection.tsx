@@ -4,7 +4,7 @@ import { ArrowRight, Calendar, Code, Users } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-end pb-20 md:pb-28 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-end pt-24 pb-8 md:pb-28 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img
@@ -15,10 +15,10 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/60 to-brand-black/30" />
       </div>
 
-      <div className="container relative z-10 mx-auto px-4 md:px-8 flex flex-col md:flex-row items-end md:items-end justify-between gap-12">
+      <div className="container relative z-10 mx-auto px-4 md:px-8 flex flex-col md:flex-row items-end justify-between gap-8 md:gap-12">
         {/* Left content */}
         <div className="max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-cream mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-cream mb-6">
             Build technology
             <br />
             <span className="italic font-medium">with purpose.</span>
